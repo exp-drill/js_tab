@@ -7,7 +7,7 @@ window.addEventListener("load", function() {
   // クラスの切り替えをtabSwitch関数で定義
   function tabSwitch() {
     // 全てのactiveクラスのうち、最初の要素を削除（"[0]は、最初の要素の意味"）
-    document.getElementsByClassName("active")[0].
+    document.getElementsByClassName("active")[0].classList.remove("active");
     // クリックしたタブにactiveクラスを追加
     // ②`this.`の後に、classListを使用してactiveクラスを追加しよう
     this.
